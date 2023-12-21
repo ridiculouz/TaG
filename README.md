@@ -42,6 +42,10 @@ Since we detach the mention extraction (ME) stage from the end-to-end pipeline, 
 
 The evaluation results are provided in the log. To evaluate RE result on test data, you should first save the model using `--save_path` argument before training. The model correponds to the best dev results will be saved. After that, You can evaluate the saved model by setting the `--load_path` argument, and the program will generate a test file `result.json`.
 
+## Acknowledgement
+
+In this repository, we refer to and use some code from [ATLOP](https://github.com/wzhouad/ATLOP). Thanks for their open-source efforts!🍻
+
 ## Citation
 ```bibtex
 @inproceedings{zhang-etal-2023-novel,
