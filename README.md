@@ -21,7 +21,7 @@ The [DocRED](https://www.aclweb.org/anthology/P19-1074/) dataset can be download
 The [Re-DocRED](https://aclanthology.org/2022.emnlp-main.580/) dataset is a revised version of DocRED and can be downloaded from [here](https://github.com/tonytan48/Re-DocRED).
 The expected structure of files is:
 ```
-ATLOP
+TaG
  |-- dataset
  |    |-- docred/re-docred
  |    |    |-- train_annotated.json        
